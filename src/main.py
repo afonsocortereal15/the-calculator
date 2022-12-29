@@ -243,11 +243,14 @@ def pressed_key(key):
     elif key.name == '+':
         press('+')
 
-    elif key.name == '=' or 'enter':
+    elif key.name == 'enter':
         equalpress()
     
     elif key.name == 'backspace':
         delete()
+
+    else:
+        ''
     
 
         
